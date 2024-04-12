@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="HTTPupt">
+      <HintPath>..\..\..\..\..\Desktop\HTTPupt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

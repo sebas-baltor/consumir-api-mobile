@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="consumir_api.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenido a la aplicacion para consumir una API!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="comienza llenando el input" FontSize="Title" Padding="30,10,30,10" x:Name="LabelUno"/>
+        <Entry x:Name="texto" Placeholder="ingresa un texto" />
+        <Button Text="Enviar" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
